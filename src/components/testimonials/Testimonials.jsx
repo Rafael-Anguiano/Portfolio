@@ -4,11 +4,11 @@ export default function Testimonials() {
     const data = [
         {
             id: 1,
-            name: "Jasper",
-            title: "The best friend",
-            img: "assets/jasper.jpeg",
-            icon: "assets/youtube.png",
-            desc: "Wouf wouf wouf"
+            name: "Rafael from Future",
+            title: "Senior Software Developer",
+            img: "assets/FutureMe.jpeg",
+            icon: "assets/Time.png",
+            desc: "He never gives up, he has come far, and he will go even further. 👨🏽‍💻"
         },
         {
             id: 2,
@@ -21,11 +21,11 @@ export default function Testimonials() {
         },
         {
             id: 3,
-            name: "Jasper",
-            title: "The best friend",
-            img: "assets/jasper.jpeg",
-            icon: "assets/youtube.png",
-            desc: "Wouf wouf wouf"
+            name: "Jeff Goldblum",
+            title: "Actor",
+            img: "https://i.ytimg.com/vi/GaZBKb79x1w/maxresdefault.jpg",
+            icon: "assets/Movie.png",
+            desc: "You did it! You crazy son of a bitch, you did it. 🦖"
         }
     ];
 

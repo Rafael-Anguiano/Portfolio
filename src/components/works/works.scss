@@ -7,10 +7,6 @@
     justify-content: center;
     position: relative;
 
-    @include mobile{
-        display: none;
-    }
-
     .arrow{
         height: 50px;
         position: absolute;
