@@ -7,15 +7,22 @@
     align-items: center;
     justify-content: center;
     position: relative;
-    
+
+    .sizeH{
+        height: 100%;
+    }
+
     h1{
+        position: relative;
+        color: $mainColor;
         font-size: 50px;
         align-self: flex-start;
-        justify-self: flex-start;
+        justify-self: center;
         @include mobile{
             font-size: 20px;
         }
     }
+
     .arrow{
         height: 50px;
         position: absolute;

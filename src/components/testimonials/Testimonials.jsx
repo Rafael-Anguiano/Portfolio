@@ -6,7 +6,7 @@ export default function Testimonials() {
             id: 1,
             name: "Jasper",
             title: "Best Friend of Humans",
-            img: "assets/jasper.jpeg",
+            img: "assets/Jasper1.jpeg",
             icon: "assets/youtube.png",
             desc: "Wouf wouf wouf",
         },
