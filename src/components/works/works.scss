@@ -3,10 +3,19 @@
 .works{
     background-color: crimson;
     display: flex;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
     position: relative;
-
+    
+    h1{
+        font-size: 50px;
+        align-self: flex-start;
+        justify-self: flex-start;
+        @include mobile{
+            font-size: 20px;
+        }
+    }
     .arrow{
         height: 50px;
         position: absolute;

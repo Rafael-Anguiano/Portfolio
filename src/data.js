@@ -58,7 +58,7 @@ export const elecPortfolio = [
     {
         id: 3,
         title: "CJ-6",
-        img: ""
+        img: "https://github.com/Rafael-Anguiano/Portfolio/blob/main/public/assets/CJ-6.png?raw=true"
     }
 ]
 

@@ -4,23 +4,32 @@ export default function Testimonials() {
     const data = [
         {
             id: 1,
+            name: "Jasper",
+            title: "Best Friend of Humans",
+            img: "assets/jasper.jpeg",
+            icon: "assets/youtube.png",
+            desc: "Wouf wouf wouf",
+        },
+        {
+            id: 2,
             name: "Rafael from Future",
             title: "Senior Software Developer",
             img: "assets/FutureMe.jpeg",
             icon: "assets/Time.png",
-            desc: "He never gives up, he has come far, and he will go even further. 👨🏽‍💻"
-        },
-        {
-            id: 2,
-            name: "Jasper",
-            title: "The best friend",
-            img: "assets/jasper.jpeg",
-            icon: "assets/youtube.png",
-            desc: "Wouf wouf wouf",
+            desc: "He never gives up, he has come far, and he will go even further. 👨🏽‍💻",
             featured: true
         },
         {
             id: 3,
+            name: "Darío Martinez",
+            title: "The Best Friend / Facebook Intern",
+            img: "https://avatars.githubusercontent.com/u/34457517?v=4",
+            icon: "assets/facebook.png",
+            desc: "Wouf wouf wouf",
+            featured: true
+        },
+        {
+            id: 4,
             name: "Jeff Goldblum",
             title: "Actor",
             img: "https://i.ytimg.com/vi/GaZBKb79x1w/maxresdefault.jpg",

@@ -42,6 +42,9 @@ export default function Works() {
 
     return (
         <div className="works" id="works">
+            <div className="container">
+                <h1>Works</h1>
+            </div>
             <div className="slider" style={{ transform: `translateX(-${currentSlide *100}vw)` }}>
                 {data.map(d => (
                 <div className="container">
