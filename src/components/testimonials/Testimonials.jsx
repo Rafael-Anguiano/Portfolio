@@ -2,34 +2,33 @@ import "./testimonials.scss"
 
 export default function Testimonials() {
     const data = [
+        //{
+        //    id: 1,
+        //    name: "Jasper",
+        //    title: "Best Friend of Humans",
+        //    img: "assets/Jasper1.jpeg",
+        //    icon: "assets/youtube.png",
+        //    desc: "Wouf wouf wouf",
+        //},
         {
             id: 1,
-            name: "Jasper",
-            title: "Best Friend of Humans",
-            img: "assets/Jasper1.jpeg",
-            icon: "assets/youtube.png",
-            desc: "Wouf wouf wouf",
-        },
-        {
-            id: 2,
             name: "Rafael from Future",
             title: "Senior Software Developer",
             img: "assets/FutureMe.jpeg",
             icon: "assets/Time.png",
-            desc: "He never gives up, he has come far, and he will go even further. 👨🏽‍💻",
-            featured: true
+            desc: "He never gives up, he has come far, and he will go even further. 👨🏽‍💻"
         },
         {
-            id: 3,
+            id: 2,
             name: "Darío Martinez",
             title: "The Best Friend / Facebook Intern",
             img: "https://avatars.githubusercontent.com/u/34457517?v=4",
             icon: "assets/facebook.png",
-            desc: "Wouf wouf wouf",
+            desc: "He is a great partner and a really good person 👍🏼",
             featured: true
         },
         {
-            id: 4,
+            id: 3,
             name: "Jeff Goldblum",
             title: "Actor",
             img: "https://i.ytimg.com/vi/GaZBKb79x1w/maxresdefault.jpg",

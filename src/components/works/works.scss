@@ -10,6 +10,11 @@
 
     .sizeH{
         height: 100%;
+
+        @include mobile{
+            font-size: 20px;
+            display: none;
+        }
     }
 
     h1{
