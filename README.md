@@ -1,70 +1,83 @@
-# Getting Started with Create React App
+# Portfolio
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Description
+This is my ***Portfolio***, a *website* to introduce my self, specifyng some projects, works and ways to contact me.
+ - Made in React using Javascript, HTML and CSS.
+ - Based on a Youtube tutorial.
+ - Used to learn more about React and CSS.
 
-## Available Scripts
+---
 
-In the project directory, you can run:
+## Installation
+To install this repository correctly follow the next steps.
 
-### `yarn start`
+First of all, in the terminal put the next code to clone this repository:
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+```sh
+    git clone https://github.com/Rafael-Anguiano/Portfolio.git
+    cd Portfolio/
+```
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+The next step is install the dependencies and node-modules.
 
-### `yarn test`
+```sh
+    npm install
+```
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Once you have installed the dependencies, you are ready to start simulating and editing some code. To run this app run the next command in the terminal (Be sure you are in the correct directory).
 
-### `yarn build`
+```sh
+    npm start
+```
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+---
+## Firebase
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+To make a deploy of a website on Firebase we need to configure some things.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+1.  First of all, we need to install firebase tools globaly using npm.
+```sh
+npm install -g firebase-tools
+```
 
-### `yarn eject`
+2.  Now, let´s login into firebase in out terminal using the next command.
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+```sh
+firebase login
+```
+> If the command didn´t work, you can execute it using the property `--interactive` as:
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+```sh
+firebase login --interactive
+```
+> Or in any case do a `logout` before.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+ 3.  Now we pass to configure and setup the connection of our project and the firebase hosting
+```sh
+firebase init
+```
+> You can use it as `firebase init hosting` to skip the steps of selecting the hosting services.
 
-## Learn More
+4.  Now is better to make a ***build*** before to make a deploy of our application, for this we need to run the next command: 
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+```sh
+npm run build
+```
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+5. Finally, we are ready to do a deploy using the next command:
+```sh
+firebase deploy
+```
+> En el deploy encontraremos 2 links que nos servirán y serán donde estará nuestra applicación.
 
-### Code Splitting
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+## Notes:
+ - There's no notes for now.
 
-### Analyzing the Bundle Size
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+## Developed By:
+ Rafael de Jesús Anguiano Suárez del Real (September 2021)
 
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `yarn build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
