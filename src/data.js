@@ -76,7 +76,7 @@ export const featuredPortfolio = [
     {
         id: 3,
         title: "Portfolio",
-        img: "../public/assets/portfolio.jpg"
+        img: "/assets/portfolio.jpg"
     },
     {
         id: 4,
