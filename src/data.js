@@ -30,7 +30,7 @@ export const webPortfolio = [
     {
         id: 1,
         title: "Portfolio",
-        img: "../public/assets/portfolio.jpg"
+        img: "/assets/portfolio.jpg"
     },
     {
         id: 2,
