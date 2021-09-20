@@ -30,7 +30,7 @@ export const webPortfolio = [
     {
         id: 1,
         title: "Portfolio",
-        img: ""
+        img: "../public/assets/portfolio.jpg"
     },
     {
         id: 2,
@@ -76,7 +76,7 @@ export const featuredPortfolio = [
     {
         id: 3,
         title: "Portfolio",
-        img: ""
+        img: "../public/assets/portfolio.jpg"
     },
     {
         id: 4,
