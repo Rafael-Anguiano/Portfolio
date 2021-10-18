@@ -11,12 +11,17 @@
     .left{
         flex: 1;
         scrollbar-width: none; //for firefox
+        overflow: none;
+        // @include mobile{
+        //     display: none;
+        // }
+
         &::-webkit-scrollbar{
             display: none;
         }
         img{
             height: 100%;
-            overflow: hidden;
+            overflow: none;
             
         }
     }
@@ -25,55 +30,87 @@
         display: flex;
         flex-direction: column;
         align-items: center;
-        justify-content: center;
+        justify-content: flex-start;
+
+        @include mobile{
+            flex-direction: column;
+
+            .container {
+                width: 100%;
+                align-items: center;
+                justify-content: center;
+                display: flex;
+            }
+        }
 
         h2{
             font-size: 30px;
+            margin: 20px;
+            margin-top: 30px;
+            overflow: hidden;
+            @include mobile{
+                overflow: visible;
+            }
         }
-        form{
-            width: 70%;
-            height: 70%;
+
+
+        .itemContainer{
             display: flex;
-            flex-direction: column;
-            align-items: center;
-            justify-content: space-around;
-            input{
-                width: 300px;
-                height: 30px;
-                font-size: 14px;
+            align-content: space-around;
+            justify-content: left;
+            margin: 20px !important;
+            // height: 35px;
+            color: #000;
+            transition: color 0.2s ease;
+
+            @include mobile{
+                display: inline-block;
+                height: unset;
+                width:unset;
+            }
+
+            .icon{
+                font-size: 25px;
+                margin: 0px 10px 0px 0px;
 
                 @include mobile{
-                    width: 200px;
-                    height: 20px;
+                    margin: 0;
                 }
             }
-            textarea{
-                width: 300px;
-                height: 200px;
-                font-size: 14px;
 
+            span{
+                // width: 100%;
+                margin: 0;
+                font-size: 20px;
+                font-weight: 500;
                 @include mobile{
-                    width: 200px;
-                    height: 100px;
+                    display: none;
                 }
             }
-            button{
-                width: 150px;
-                height: 30px;
-                color: white;
-                background-color: crimson;
-                border: none;
-                border-radius: 10px;
+            
+            a {
+                display: flex;
+                align-items: center;
+                margin: 0;
+                font-size: 15px;
+                font-weight: 500;
+                text-decoration: none;
+                color: #000;
+                transition: color 0.3s ease;
+            }
+
+            a:hover {
+                transition: color 0.2s ease;
+                color: rgb(143, 156, 233);
+                font-size: 15px;
                 font-weight: 500;
                 cursor: pointer;
+            }
+        }
 
-                &:focus{
-                    outline: none;
-                }
-            }
-            span{
-                color: green;
-            }
+        .itemContainer:hover{
+            transition: color 0.2s ease;
+            color: rgb(143, 156, 233);
         }
     }
 }

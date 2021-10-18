@@ -1,5 +1,7 @@
 {
   "projects": {
-    "default": "rafael-anguiano-portfolio"
-  }
+    "default": "rafael-anguiano-portfolio",
+    "Portfolio-React": "rafael-anguiano-portfolio"
+  },
+  "targets": {}
 }
