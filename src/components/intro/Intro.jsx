@@ -10,7 +10,7 @@ export default function Intro() {
             showCursor: true,
             backDelay: 2000,
             backSpeed: 60,
-            strings: ["Web Developer 💻", "Pets lover 🐕", "Mobile Developer 📱", "Gamer 🎮" ]
+            strings: ["Software Engineer 👨‍💻", "Web Developer 💻", "Pets lover 🐕", "Mobile Developer 📱", "Gamer 🎮" ]
         });
     }, []);
     return (
